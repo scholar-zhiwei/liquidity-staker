@@ -1,6 +1,7 @@
 pragma solidity ^0.5.16;
 
 contract RewardsDistributionRecipient {
+    //管理员地址
     address public rewardsDistribution;
 
     function notifyRewardAmount(uint256 reward) external;
